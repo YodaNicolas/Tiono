@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/enregistrement.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body class="bodyenre">
+    
+
+<div class="fondForm">
+
+    <form class="corpform" action="conect.php" method="POST">
+        <h1 class="ajout">CREER UN COMPTE</h1>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="label"> Nom:</label>
+            <input type="text" name="nom" class="form-control" id="exampleFormControlInput1" placeholder="Entrez le nom"
+                required>
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="label">prénom:</label>
+            <input type="text" name="prenom" class="form-control" id="exampleFormControlInput1"
+                placeholder="Entrez le prénom" required>
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="label">INE:</label>
+            <input type="text" name="INE" class="form-control" id="exampleFormControlInput1"
+                placeholder="ine" required>
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="label">Email:</label>
+            <input type="text" name="email" class="form-control" id="exampleFormControlInput1"
+                placeholder="Entrez votre email" required>
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="label">Mot de passe:</label>
+            <input type="password" name="formation_de_base" class="form-control" id="exampleFormControlInput1"
+                placeholder="Mot de passe" required>
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="label">Confirmer le mot de passe:</label>
+            <input type="password" name="formation_de_base" class="form-control" id="exampleFormControlInput1"
+                placeholder="Confirmer" required>
+        </div>
+        <button type="submit" class="btn btn-success">Enregistrer</button>
+
+    </form>
+</div>
+
+
+
+</body>
+</html>

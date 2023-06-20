@@ -1,0 +1,36 @@
+.Bleu {
+    background-color: blue;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: white !important;
+}
+
+nav {
+    position: sticky !important;
+    top: 0px !important;
+    z-index: 20;
+}
+
+.NavColor {
+    background-color: rgb(75, 33, 201) !important;
+}
+
+.CentrNavlink {
+    width: 100%;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center;
+}
+
+.place {
+    padding: 15px;
+    text-align: center;
+}
+
+.BoutonsIscription{
+    border-style: solid;
+    width: 140px;
+    border-color: black;
+}
